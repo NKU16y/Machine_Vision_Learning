@@ -1,0 +1,9 @@
+img1=imread('miss.bmp');
+Moravec_myself(img1,3,0.4);
+Harris_myself(img1,2,0.08,0.05,3);
+img2=imread('building.jpg');
+Moravec_myself(img2,3,0.4);
+Harris_myself(img2,2,0.08,0.05,3);
+img3=imread('road.jpg');
+Moravec_myself(img3,3,0.4);
+Harris_myself(img3,2,0.08,0.05,3);
